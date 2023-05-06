@@ -2,12 +2,12 @@
 
 Generates a week of meal suggestions based on daily options and variables inside each option.
 
-Executing:
+Executing
 
 ```
-python3 wmp.py 1
+python3 wmp.py X
 ```
-results in a plan based on the predefined variables:
+where X is the index of the week, results in a plan based on the predefined variables:
 
 ```
 +-----------+---------------------------------------------+
@@ -21,6 +21,21 @@ results in a plan based on the predefined variables:
 | Sábado    | BARRA LIBRE                                 |
 | Domingo   | arroz español                               |
 +-----------+---------------------------------------------+
+```
+For different values of X different plans are generated:
+
+```
++-----------+--------------------------------------+
+| Day       | Dish                                 |
++-----------+--------------------------------------+
+| Lunes     | guisado de alubias                   |
+| Martes    | pasta con bolognesa + ensalada verde |
+| Miercoles | wraps de verduras y pollo            |
+| Jueves    | huevos revueltos + crema de verduras |
+| Viernes   | asado de patatas, verduras y tofu    |
+| Sábado    | BARRA LIBRE                          |
+| Domingo   | arroz español                        |
++-----------+--------------------------------------+
 ```
 
 Generating a 8 week plan is as simple as executing
