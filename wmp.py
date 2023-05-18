@@ -38,7 +38,7 @@ for j in range(0, 7):
     option_index    = week_index % len(selected_base)
     selected_option = selected_base[option_index]
     if selected_option in VARIABLES:
-        variable_index = week_index % len(VARIABLES[selected_option])
+        variable_index = int ( week_index % ( len(VARIABLES[selected_option]) * len(selected_base)) / len(selected_base) )
         selected_variable = VARIABLES[selected_option][variable_index]
         my_food = selected_option.replace('VARIABLE', selected_variable)
     else:
