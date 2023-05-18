@@ -3,7 +3,7 @@
 # define base templated dishes, i.e, dishes with variables
 # each item is in general a list so that certain days may return different dishes
 
-BASE01 = [ 'guisado de VARIABLE'                                                   ]
+BASE01 = [ 'guisado de VARIABLE', 'guisantes con huevos escalfados'                ]
 BASE02 = [ 'pasta con VARIABLE + ensalada verde'                                   ]
 BASE03 = [ 'couscous', 'wraps de VARIABLE', 'pizza de VARIABLE',                   ]
 BASE04 = [ 'huevos revueltos + VARIABLE', 'ensalada de atun con cebolla, VARIABLE' ]
