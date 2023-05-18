@@ -42,3 +42,5 @@ Generating a 8 week plan is as simple as executing
 ```
 for j in `seq 1 8`; do echo "week $j"; python3 wmp.py $j ; done
 ```
+
+In order to customize the menu options all that is needed is editing [config.py](config.py).
