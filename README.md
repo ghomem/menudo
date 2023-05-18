@@ -1,4 +1,4 @@
-# weekly-meal-planner
+# Menudo - a weekly meal planner
 
 Generates a week of meal suggestions based on daily options and variables inside each option.
 
