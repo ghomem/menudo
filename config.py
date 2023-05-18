@@ -3,13 +3,13 @@
 # define base templated dishes, i.e, dishes with variables
 # each item is in general a list so that certain days may return different dishes
 
-BASE01 = [ 'guisado de VARIABLE', 'guisantes con huevos escalfados'                ]
-BASE02 = [ 'pasta con VARIABLE + ensalada verde'                                   ]
-BASE03 = [ 'couscous', 'wraps de VARIABLE', 'pizza de VARIABLE',                   ]
-BASE04 = [ 'huevos revueltos + VARIABLE', 'ensalada de atun con cebolla, VARIABLE' ]
-BASE05 = [ 'asado de patatas, verduras y VARIABLE'                                 ]
-BASE06 = [ 'BARRA LIBRE'                                                           ]
-BASE07 = [ 'arroz español'                                                         ]
+BASE01 = [ 'guisado de VARIABLE',                                                                                     ]
+BASE02 = [ 'pasta con VARIABLE + ensalada verde'                                                                      ]
+BASE03 = [ 'couscous', 'wraps de VARIABLE', 'pizza de VARIABLE',                                                      ]
+BASE04 = [ 'huevos revueltos + VARIABLE', 'ensalada de atun con cebolla, VARIABLE', 'guisantes con huevos escalfados' ]
+BASE05 = [ 'asado de patatas, verduras y VARIABLE'                                                                    ]
+BASE06 = [ 'BARRA LIBRE'                                                                                              ]
+BASE07 = [ 'arroz español'                                                                                            ]
 
 # define an ordered list dish templates
 
@@ -24,7 +24,7 @@ t_VARIABLES = {
               BASE02[0]: [ 'bolognesa', 'pollo y aguacate', 'gusmix'                    ],
 
               BASE03[1]: [ 'verduras y pollo', 'arroz integral, alubias negras y tofu'  ],
-              BASE03[2]: [ 'chorizo, pimiento y cebolla', 'setas, azeitunas y tomate'   ],
+              BASE03[2]: [ 'chorizo, pimiento y cebolla', 'setas, aceitunas y tomate'   ],
 
               BASE04[0]: [ 'ensalada de tomate', 'crema de verduras'                    ],
               BASE04[1]: [ 'huevo duro y alubias carilla', 'patata, zanahoria y rabano' ],
