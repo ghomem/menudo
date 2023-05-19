@@ -1,6 +1,6 @@
 # Menudo - a weekly meal planner
 
-Generates a week of meal suggestions based on daily options and variables inside each option.
+Menudo generates a week of meal suggestions based on daily options and variables within each option.
 
 Executing
 
